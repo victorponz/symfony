@@ -11,3 +11,11 @@ blog_list:
 blog_show:
     path:     /blog/{entryId}
     controller: App\Controller\BlogController::show
+
+blog_list_twig:
+    path:     /blogtwig
+    controller: App\Controller\BlogTwigController::list
+
+blog_show_twig:
+    path:     /blogtwig/{entryId}
+    controller: App\Controller\BlogTwigController::show
